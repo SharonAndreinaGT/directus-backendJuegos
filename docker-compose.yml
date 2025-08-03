@@ -17,3 +17,6 @@ services:
       WEBSOCKETS_ENABLED: "true"
       CORS_ENABLED: "true"
       CORS_ORIGIN: "http://localhost:4200"
+      AUTH_DISABLE_DEFAULT: "false"
+      AUTH_TOKEN_EXPIRATION: "24h" 
+      AUTH_REFRESH_TOKEN_EXPIRATION: "7d"
